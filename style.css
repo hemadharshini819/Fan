@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 120px;
+    background-color: darkslategrey;
+    color: darkgray;
+    margin: 50px;
+    padding: 0px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:cadetblue;
+    color:beige;
+}
+
+img{
+    height: 700px;
+    width: 700px;
+}
+.fan{
+    animation: movefan 2s infinite;
+}
+@keyframes movefan{
+    
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
+
